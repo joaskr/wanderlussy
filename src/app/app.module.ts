@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './modules/material.module';
 import { HomeComponent } from './home/home.component';
+import { HomeDashboardComponent } from './home/home-dashboard/home-dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { NotesComponent } from './notes/notes.component';
@@ -21,6 +22,7 @@ import { SidebarComponent } from './header/sidebar/sidebar.component';
     NotesComponent,
     GalleryComponent,
     SidebarComponent,
+    HomeDashboardComponent,
   ],
   imports: [
     BrowserModule,
